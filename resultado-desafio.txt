@@ -1,0 +1,3 @@
+ID             NAME          MODE         REPLICAS   IMAGE                  PORTS
+kcje7iszrrou   app-toshiro   replicated   3/3        minha-app-php:latest   *:80->80/tcp
+ph509ot9f8bz   mysql-db      replicated   1/1        mysql:5.7              
